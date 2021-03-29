@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .text-area {
+            height: 80vh;
+            width: 45%;
+        }
+    </style>
+</head>
+<body>
+    <div style="display: flex; height:15vh; flex-direction: column; justify-content: space-evenly; align-items: center;">
+        <input id="key" placeholder="Chave">
+        <div>
+            <button id="botao">Criptografar</button>
+            <button id="botao2">Descriptografar</button>
+        </div>
+
+    </div>
+    <div style="display: flex; width: 100%; justify-content: space-around;">
+        <textarea id="input" class="text-area" placeholder="Input"></textarea>
+        <textarea id="output" class="text-area" placeholder="Output"></textarea>
+
+    </div>
+    <h2 id="status"></h2>
+    <h2 id="status2"></h2>
+    <h2 id="status3"></h2>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="   crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+<script type="module" src="./crypto-module.js"></script>
+<script type="module" src="./crypto.js"></script>
+</html>
+
+
