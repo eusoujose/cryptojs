@@ -1,4 +1,4 @@
-import { TravisAes } from  "https://satmpcloudsharedbr001.blob.core.windows.net/b2ccontent/login/cryptomodule.js";
+import { TravisAes } from  "./crypto-module";
 
 
 function Decrypt() {
