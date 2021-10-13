@@ -1,4 +1,4 @@
-import { TravisAes } from  "./crypto-module";
+import { TravisAes } from  "./crypto-module.js";
 
 
 function Decrypt() {
